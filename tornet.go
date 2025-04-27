@@ -28,3 +28,7 @@ func GetIp() string {
 func ChangeIp() error {
 	return restartTornet()
 }
+
+func Stop() error {
+	return stopTornet()
+}
