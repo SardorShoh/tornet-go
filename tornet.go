@@ -32,3 +32,7 @@ func ChangeIp() error {
 func Stop() error {
 	return stopTornet()
 }
+
+func Proxy() string {
+	return "socks5://127.0.0.1:9050"
+}
